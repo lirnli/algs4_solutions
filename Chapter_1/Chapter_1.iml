@@ -14,7 +14,7 @@
     <orderEntry type="module-library">
       <library name="Maven: edu.princeton.cs:algs4:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/algs4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../libs/algs4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

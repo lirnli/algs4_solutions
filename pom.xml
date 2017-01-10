@@ -4,35 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>beginner_programmers</groupId>
+    <groupId>java_learner</groupId>
     <artifactId>algs4_solutions</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>test_field</module>
         <module>Chapter_1</module>
     </modules>
-
-    <!--<repositories>-->
-        <!--<repository>-->
-            <!--<id>in-project</id>-->
-            <!--<name>In Project Repo</name>-->
-            <!--<url>file://${project.basedir}/lib</url>-->
-        <!--</repository>-->
-    <!--</repositories>-->
-
-    <!--<dependencies>-->
-        <!--<dependency>-->
-            <!--<groupId>princeton</groupId>-->
-            <!--<artifactId>algs4lib</artifactId>-->
-            <!--<version>1.0</version>-->
-        <!--</dependency>-->
-    <!--</dependencies>-->
-
-    <!--<properties>-->
-    <!--<top_dir>${project.basedir}</top_dir>-->
-    <!--</properties>-->
-
 
     <dependencies>
         <dependency>
@@ -40,9 +18,7 @@
             <artifactId>algs4</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/algs4.jar</systemPath>
-            <!--<systemPath>${top_dir}/lib/algs4.jar</systemPath>-->
+            <systemPath>${project.basedir}/libs/algs4.jar</systemPath>
         </dependency>
     </dependencies>
-
 </project>
